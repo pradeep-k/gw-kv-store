@@ -5,6 +5,10 @@
  * @data: Input, the function expecting this structure.
  * @ascii: Function returns this char.
  */
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+
 
 int 
 gwkv_marshal_server(struct operation* data, int status, char** ascii)
