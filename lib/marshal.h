@@ -29,8 +29,8 @@ int
 gwkv_marshal_client(struct operation* data, char** ascii);
 
 int
-gwkv_demarshal_server(char* ascii, struct operation** op);
+gwkv_demarshal_server(char* ascii, struct operation* data);
 
 int
-gwkv_demarshal_client(char* ascii, struct** op, int* status);
+gwkv_demarshal_client(char* ascii, struct operation* data, int* status);
 #endif//__MARSHAL_H__
